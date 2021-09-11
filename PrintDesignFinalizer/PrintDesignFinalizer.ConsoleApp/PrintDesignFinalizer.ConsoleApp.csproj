@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Colorful.Console" Version="1.2.15" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta1.21308.1" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.21216.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrintDesignFinalizer.Engine\PrintDesignFinalizer.Engine.csproj" />
+  </ItemGroup>
+
+</Project>

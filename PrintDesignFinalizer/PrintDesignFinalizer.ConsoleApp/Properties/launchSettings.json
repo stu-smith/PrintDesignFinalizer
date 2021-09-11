@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PrintDesignFinalizer.ConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "--directory \"Q:\\Design\\Print - Copy\""
+    }
+  }
+}

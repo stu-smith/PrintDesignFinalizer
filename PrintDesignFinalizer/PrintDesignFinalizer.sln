@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDesignFinalizer.ConsoleApp", "PrintDesignFinalizer.ConsoleApp\PrintDesignFinalizer.ConsoleApp.csproj", "{542A985B-FEF9-478C-8E65-6405A8B15D25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrintDesignFinalizer.Engine", "PrintDesignFinalizer.Engine\PrintDesignFinalizer.Engine.csproj", "{1AFFE260-B8F6-4949-BF3F-17F13465917F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{426D29C0-E150-48AC-A209-6E268B651BD0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{542A985B-FEF9-478C-8E65-6405A8B15D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542A985B-FEF9-478C-8E65-6405A8B15D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542A985B-FEF9-478C-8E65-6405A8B15D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542A985B-FEF9-478C-8E65-6405A8B15D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AFFE260-B8F6-4949-BF3F-17F13465917F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AFFE260-B8F6-4949-BF3F-17F13465917F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AFFE260-B8F6-4949-BF3F-17F13465917F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AFFE260-B8F6-4949-BF3F-17F13465917F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F75DC479-B483-4124-A555-65DE671DCC5F}
+	EndGlobalSection
+EndGlobal
